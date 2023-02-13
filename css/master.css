@@ -123,18 +123,28 @@ ul {
 .btn {
     padding: .7rem 1rem;
     background-color: white;
+    transition: all .3s;
 }
 
 .btn-primary {
     background-color: var(--primary);
-    transition: all .3s;
     color: white;
+}
+
+.btn-secondary{
+    background-color: white;
+    color: var(--grayText);
+    border: 1px solid var(--grayText);
 }
 
 .btn:hover,
 .btn:active,
 .btn:focus {
     filter: brightness(1.8) saturate(0.8);
+}
+
+section{
+    padding-bottom: 8rem;
 }
 
 /* header */
@@ -290,4 +300,17 @@ h4{
     margin-right: 10px;
     content: '\f00c';
     color: var(--primary);
+}
+#partner .container-sm div:first-child{
+    min-width: 60%;
+}
+#partner img{
+    display: block;
+    width: 100%;
+}
+#partner .container-sm div:last-child{
+    padding: 2.5rem;
+}
+#partner a{
+    align-self: flex-start;
 }
