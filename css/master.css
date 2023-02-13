@@ -11,6 +11,7 @@
     --primary: #0061FF;
     --primary-hover: #5e98f6;
     --bg-primary: #B4D0E7;
+    --lightgrey: #cccccc;
 
 }
 
@@ -40,6 +41,10 @@ ul {
 .d-flex {
     display: flex;
 }
+.flex-column{
+    display: flex;
+    flex-flow: column nowrap;
+}
 
 .justify-center {
     justify-content: center;
@@ -67,7 +72,11 @@ ul {
     margin-top: 3rem;
 }
 
-mb-3 {
+.mb-2{
+    margin-bottom: 2rem;
+}
+
+.mb-3 {
     margin-bottom: 3rem;
 }
 
@@ -103,8 +112,12 @@ mb-3 {
     gap: 2rem 0;
 }
 
+.text-bold{
+    font-weight: 600;
+}
+
 .btn {
-    padding: .5rem 1rem;
+    padding: .7rem 1rem;
     background-color: white;
 }
 
@@ -212,5 +225,62 @@ input:checked~.checkmark:after {
     padding: 7px;
     border-radius: 50%;
     background: white;
-    
+}
+.card{
+    border: 1px solid var(--lightgrey);
+    width: calc(100% / 3);
+}
+.cardHeader{
+    border-bottom: 1px solid var(--lightgrey);
+}
+h3{
+    font-weight: 400;
+    text-align: center;
+}
+.cardBody{
+    padding: 0 2rem;
+    gap: 2rem 0;
+}
+h4{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+.cardBody a{
+    text-align: center;
+}
+.cardBody ul li {
+    margin-top: 1rem;
+}
+.share:before, .users:before, .storage:before{
+    font-family: "Font Awesome 5 Free"; font-weight: 600; 
+    display: inline-block;
+    margin-right: 10px;
+}
+.share:before{
+    content: "\f1e0";
+}
+.storage:before{
+    content: '\f07b';
+}
+.users:before{
+    content: '\f007';
+}
+.buyNow{
+    text-decoration: underline;
+    color: var(--primary);
+}
+.cardBody hr{
+    border: 0;
+    height: 0;
+    border-top: 1px solid #0000001a;
+    border-bottom: 1px solid #0000001a;
+    width: 25%;
+}
+.cardFooter li:before{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; 
+    display: inline-block;
+    margin-right: 10px;
+    content: '\f00c';
+    color: var(--primary);
 }
