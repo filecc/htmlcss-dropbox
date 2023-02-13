@@ -153,7 +153,7 @@ nav {
     color: var(--grayText);
 }
 
-nav div:first-child {
+nav .navbar {
     background-color: white;
     z-index: 99;
     border-bottom: 1px solid var(--lightgrey);
