@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
     font-size: .9rem;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -141,6 +142,8 @@ nav {
 
 nav div:first-child {
     background-color: white;
+    z-index: 99;
+    border-bottom: 1px solid var(--lightgrey);
 }
 
 #jumbotron {
