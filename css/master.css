@@ -27,6 +27,9 @@ ul{
     max-width: 1000px;
     margin: 0 auto;
 }
+.d-inlineBlock{
+    display: inline-block;
+}
 .d-flex{
     display: flex;
 }
@@ -57,6 +60,15 @@ mb-3{
 .gx-3{
     gap: 0 3rem;
 }
+.gy-1{
+    gap: 1rem 0;
+}
+.gy-2{
+    gap: 2rem 0;
+}
+.gy-3{
+    gap: 2rem 0;
+}
 .p-1{
     padding: 1rem;
 }
@@ -85,7 +97,7 @@ nav div:first-child{
     background-color: white;
 }
 #jumbotron{
-    min-height: 60vh;
+    min-height: 70vh;
     background-color: var(--bg-primary);
     padding-top: 3.5rem;
 }
@@ -93,4 +105,27 @@ h1{
     font-size: 4.5rem;
     font-weight: 800;
     line-height: 6rem;
+    margin-bottom: 3rem;
+}
+.textHeaderContainer{
+    width: 25%;
+    color: var(--grayText);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+}
+.headerImg img{
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 0;    
+}
+.headerImg {
+    width: 70%;
+    position: relative;
+}
+header i{
+    font-size: 3rem;
+    color: black;
+    margin-top: 35%;
 }
