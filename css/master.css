@@ -16,6 +16,11 @@
 
 }
 
+img{
+    display: block;
+    width: 100%;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -45,6 +50,10 @@ ul {
 .flex-column{
     display: flex;
     flex-flow: column nowrap;
+}
+
+.wrap{
+    flex-wrap: wrap;
 }
 
 .justify-center {
@@ -118,6 +127,9 @@ ul {
 
 .text-bold{
     font-weight: 600;
+}
+.b-1{
+    border: 1px solid var(--lightgrey);
 }
 
 .btn {
@@ -243,7 +255,6 @@ input:checked~.checkmark:after {
     background: white;
 }
 .card{
-    border: 1px solid var(--lightgrey);
     width: calc(100% / 3);
 }
 .cardHeader{
@@ -301,6 +312,7 @@ h4{
     content: '\f00c';
     color: var(--primary);
 }
+/* partner */
 #partner .container-sm div:first-child{
     min-width: 60%;
 }
@@ -313,4 +325,9 @@ h4{
 }
 #partner a{
     align-self: flex-start;
+}
+/* features */
+#features p {
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
