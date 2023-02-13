@@ -13,6 +13,17 @@
     --primary-hover: #5e98f6;
     --bg-primary: #B4D0E7;
     --lightgrey: #cccccc;
+    /* card customers color styles */
+    --designit: #A2D39B;
+    --designit-border: #D1E9CD;
+    --asu: #61082B;
+    --uf: #0093CE;
+    --topps: #FF1C1C;
+    --centercard: #F5F5F5;
+    --wbr: #D5001F;
+    --lonley: #0D2481;
+    --hearst: #B4D0E7;
+    --clear: #FFD830;
 
 }
 
@@ -331,3 +342,46 @@ h4{
     font-size: 1rem;
     line-height: 1.5rem;
 }
+
+/* customers */
+#customers h2{
+    max-width: 60%;
+}
+.customersLogos{
+    max-width: 100%;
+}
+.customer{
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+    position: relative;
+}
+.firstBlock, .secondBlock, .center{
+    width: calc((100vw  / 3));
+    height: calc((100vw  / 3));
+}
+div.customer img{
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(5);
+}
+.designit{
+    background-color: var(--designit);
+    box-shadow: inset 0 0 0 15px  var(--designit-border);
+}
+.asu{
+    background-color: var(--asu);
+}
+.uf{
+    background-color: var(--uf);
+}
+.topps{
+    background-color: var(--topps);
+}
+.center{
+    background-color: var(--centercard);
+}
+
+
