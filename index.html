@@ -15,7 +15,7 @@
 
 <body>
     <!-- header -->
-    <header>
+    <header class="mb-4">
         <!-- navbar -->
         <nav>
             <div class="w100 d-flex space-between align-center p-1 fixed">
@@ -27,7 +27,7 @@
                         <li>Piani e Prezzi</li>
                     </ul>
                 </div>
-    
+
                 <div class="d-flex justify-center align-center gx-2">
                     <ul class="d-flex justify-center align-center gx-3">
                         <li>Supporto</li>
@@ -37,7 +37,6 @@
                     <a class="btn btn-primary" href="/">Inizia</a>
                 </div>
             </div>
-            
         </nav>
         <!-- jumbotron -->
         <div id="jumbotron" class="">
@@ -45,7 +44,9 @@
                 <h1>Tutto ci&ograve; che ti serve per il tuo lavoro, in un unico posto</h1>
                 <div class="d-flex gx-1 jumbContainer">
                     <div class="textHeaderContainer gy-2">
-                        <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: &egrave; un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
+                        <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso
+                            posto. Dropbox Business è più di uno spazio di archiviazione sicuro: &egrave; un modo
+                            intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
                         <a class="btn btn-primary" href="">Inizia la tua prova gratuita</a>
                         <p>Annulla in qualsiasi momento</p>
                         <i class="fa-solid fa-arrow-down"></i>
@@ -53,14 +54,32 @@
                     <div class="headerImg">
                         <img src="./img/jumbo.png" alt="jumbotron img">
                     </div>
-                   
                 </div>
             </div>
-            
         </div>
     </header>
-    <!-- main -->    
-
+    <!-- main -->
+    <main>
+        <section id="plans" class="mb-4">
+            <div class="container-sm">
+                <h2>Trova il piano business che fa per te</h2>
+                <!-- radio button -->
+                <div class="d-flex gx-2 mt-2">
+                    <label class="radioContainer">
+                        Fatturazione mensile
+                        <input type="radio" checked="checked" name="radio">
+                        <span class="checkmark"></span>
+                      </label>
+                    <label class="radioContainer">
+                        Fatturazione annuale
+                        <input type="radio" checked="checked" name="radio">
+                        <span class="checkmark"></span>
+                      </label>
+                </div>
+                
+            </div>
+        </section>
+    </main>
     <!-- footer -->
 </body>
 
