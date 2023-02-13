@@ -65,6 +65,9 @@ ul {
 .p-1 {
     padding: 1rem;
 }
+.mt-1{
+    margin-top: 1rem;
+}
 .mt-2{
     margin-top: 2rem;
 }
@@ -86,7 +89,7 @@ ul {
 }
 
 .w100 {
-    width: 100%;
+    min-width: 100%;
 }
 
 .gx-1 {
@@ -254,6 +257,7 @@ h4{
 }
 .cardBody ul li {
     margin-top: 1rem;
+    font-size: 1rem;
 }
 .share:before, .users:before, .storage:before{
     font-family: "Font Awesome 5 Free"; font-weight: 600; 
