@@ -8,6 +8,7 @@
 :root{
     --grayText: #606060;
     --primary: #0061FF;
+    --primary-hover: #5e98f6;
     --bg-primary: #B4D0E7;
 
 }
@@ -59,17 +60,37 @@ mb-3{
 .p-1{
     padding: 1rem;
 }
+.mt-3{
+    margin-top: 3rem;
+}
 .btn{
     padding: .5rem 1rem;
     background-color: white;
 }
 .btn-primary{
     background-color: var(--primary);
+    transition: all .3s;
     color: white;
+}
+.btn:hover, .btn:active, .btn:focus{
+    filter: brightness(1.8) saturate(0.8);
 }
 
 /* header */
 nav{
     min-height: 60px;
     color: var(--grayText);
+}
+nav div:first-child{
+    background-color: white;
+}
+#jumbotron{
+    min-height: 60vh;
+    background-color: var(--bg-primary);
+    padding-top: 3.5rem;
+}
+h1{
+    font-size: 4.5rem;
+    font-weight: 800;
+    line-height: 6rem;
 }
