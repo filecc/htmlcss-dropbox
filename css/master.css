@@ -309,7 +309,7 @@ h4{
     text-decoration: underline;
     color: var(--primary);
 }
-.cardBody hr{
+hr{
     border: 0;
     height: 0;
     border-top: 1px solid #0000001a;
@@ -383,5 +383,24 @@ div.customer img{
 .center{
     background-color: var(--centercard);
 }
+.wbr{
+    background-color: var(--wbr);
+}
+.lonley{
+    background-color: var(--lonley);
+}
+.hearst{
+    background-color: var(--hearst);
+}
+.clear{
+    background-color: var(--clear);
+}
+div.center img{
+    max-width: 40%;
+}
+.center{
+    padding: 3rem;
+}
+
 
 
