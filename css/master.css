@@ -401,6 +401,30 @@ div.center img{
 .center{
     padding: 3rem;
 }
+.downJumbo{
+    background-color: var(--bg-primary);
+}
+.downJumbo .container-sm{
+    min-height: 300px;
+}
+.downJumbo h2{
+    color: var(--asu);
+}
+/*  FAQ */
+.faqHr{
+    width: 100%;
+    margin-top: 1.5rem;
+}
+details{
+    margin-top: 3rem;
+}
+details summary, details p{
+    font-size: 1.3rem;
+}
+details summary{
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+}
 
 
 
