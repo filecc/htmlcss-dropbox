@@ -172,8 +172,16 @@ section{
 
 /* header */
 nav {
-    min-height: 60px;
+    min-height: 50px;
     color: var(--grayText);
+}
+
+nav img{
+    padding-left: 1rem;
+}
+
+nav .login{
+    margin-right: 1rem;
 }
 
 nav .navbar {
@@ -181,6 +189,26 @@ nav .navbar {
     z-index: 99;
     border-bottom: 1px solid var(--lightgrey);
 }
+
+.topnav {
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    border-bottom: 3px solid transparent;
+  }
+  
+  .topnav a:hover {
+    border-bottom: 3px solid var(--primary);
+  }
+  
+  .topnav a.active {
+    border-bottom: 3px solid var(--primary);
+  }
 
 #jumbotron {
     min-height: 70vh;
