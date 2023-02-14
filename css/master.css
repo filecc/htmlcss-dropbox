@@ -425,6 +425,31 @@ details summary{
     margin-bottom: 1.5rem;
     font-weight: bold;
 }
+.footerUl{
+    width: calc(100% / 5);
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 6rem 0;
+}
+.footerUl span{
+    font-size: 1rem;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+.footerUl ul li{
+    margin: .5rem 0;
+}
+footer hr{
+    border: 0;
+    height: 0;
+    border-top: 1px solid #eee;
+    width: 10%;
+    margin: 2rem 0;
+}
+
+
 
 
 
