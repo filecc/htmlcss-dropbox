@@ -419,60 +419,36 @@ div.customer img{
 .designit, .asu, .uf, .topps, .center, .wbr, .lonley, .hearst, .clear{
     transition: all linear .5s;
 }
+:is(.designit, .asu, .uf, .topps, .center, .wbr, .lonley, .hearst, .clear):hover{
+    box-shadow: inset 0 0 0 15px  #ffffff74;
+}
 .designit{
     background-color: var(--designit);
-}
-.designit:hover{
-    box-shadow: inset 0 0 0 15px  var(--designit-border);
 }
 .asu{
     background-color: var(--asu);
 }
-.asu:hover{
-    box-shadow: inset 0 0 0 15px var(--asu-border);
-}
 .uf{
     background-color: var(--uf);
 }
-.uf:hover{
-    box-shadow: inset 0 0 0 15px var(--uf-border);
-}
 .topps{
     background-color: var(--topps);
-}
-.topps:hover{
-    box-shadow: inset 0 0 0 15px var(--topps-border);
 }
 .center{
     background-color: var(--centercard);
     overflow:scroll;
 }
-.center:hover{
-    box-shadow: inset 0 0 0 15px var(--centercard-border);
-}
 .wbr{
     background-color: var(--wbr);
-}
-.wbr:hover{
-    box-shadow: inset 0 0 0 15px var(--wbr-border);
 }
 .lonley{
     background-color: var(--lonley);
 }
-.lonley:hover{
-    box-shadow: inset 0 0 0 15px var(--lonley-border);
-}
 .hearst{
     background-color: var(--hearst);
 }
-.hearst:hover{
-    box-shadow: inset 0 0 0 15px var(--hearst-border);
-}
 .clear{
     background-color: var(--clear);
-}
-.clear:hover{
-    box-shadow: inset 0 0 0 15px var(--clear-border);
 }
 div.center img{
     max-width: 40%;
