@@ -15,24 +15,14 @@
     --lightgrey: #cccccc;
     /* card customers color styles */
     --designit: #A2D39B;
-    --designit-border: #D1E9CD;
     --asu: #61082B;
-    --asu-border: #a80f4c;
     --uf: #0093CE;
-    --uf-border: #05b2f6; 
     --topps: #FF1C1C;
-    --topps-border: #f58585;
     --centercard: #F5F5F5;
-    --centercard-border: #fffcfc;
     --wbr: #D5001F;
-    --wbr-border: #f61f40;
     --lonley: #0D2481;
-    --lonley-border: #2248e2;
     --hearst: #B4D0E7;
-    --hearst-border: #d3e9fb;
     --clear: #FFD830;
-    --clear-border: #f8e27f;
-
 }
 
 img{
