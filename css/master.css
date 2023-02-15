@@ -410,6 +410,7 @@ div.customer img{
 }
 .center{
     background-color: var(--centercard);
+    overflow:scroll;
 }
 .wbr{
     background-color: var(--wbr);
