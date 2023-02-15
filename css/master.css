@@ -17,13 +17,21 @@
     --designit: #A2D39B;
     --designit-border: #D1E9CD;
     --asu: #61082B;
+    --asu-border: #a80f4c;
     --uf: #0093CE;
+    --uf-border: #05b2f6; 
     --topps: #FF1C1C;
+    --topps-border: #f58585;
     --centercard: #F5F5F5;
+    --centercard-border: #fffcfc;
     --wbr: #D5001F;
+    --wbr-border: #f61f40;
     --lonley: #0D2481;
+    --lonley-border: #2248e2;
     --hearst: #B4D0E7;
+    --hearst-border: #d3e9fb;
     --clear: #FFD830;
+    --clear-border: #f8e27f;
 
 }
 
@@ -158,6 +166,9 @@ ul {
     background-color: white;
     color: var(--grayText);
     border: 1px solid var(--grayText);
+}
+.btn-secondary:hover{
+    color: black;
 }
 
 .btn:hover,
@@ -395,34 +406,63 @@ div.customer img{
     transform: translate(-50%, -50%);
     filter: invert(5);
 }
+.designit, .asu, .uf, .topps, .center, .wbr, .lonley, .hearst, .clear{
+    transition: all linear .5s;
+}
 .designit{
     background-color: var(--designit);
+}
+.designit:hover{
     box-shadow: inset 0 0 0 15px  var(--designit-border);
 }
 .asu{
     background-color: var(--asu);
 }
+.asu:hover{
+    box-shadow: inset 0 0 0 15px var(--asu-border);
+}
 .uf{
     background-color: var(--uf);
 }
+.uf:hover{
+    box-shadow: inset 0 0 0 15px var(--uf-border);
+}
 .topps{
     background-color: var(--topps);
+}
+.topps:hover{
+    box-shadow: inset 0 0 0 15px var(--topps-border);
 }
 .center{
     background-color: var(--centercard);
     overflow:scroll;
 }
+.center:hover{
+    box-shadow: inset 0 0 0 15px var(--centercard-border);
+}
 .wbr{
     background-color: var(--wbr);
+}
+.wbr:hover{
+    box-shadow: inset 0 0 0 15px var(--wbr-border);
 }
 .lonley{
     background-color: var(--lonley);
 }
+.lonley:hover{
+    box-shadow: inset 0 0 0 15px var(--lonley-border);
+}
 .hearst{
     background-color: var(--hearst);
 }
+.hearst:hover{
+    box-shadow: inset 0 0 0 15px var(--hearst-border);
+}
 .clear{
     background-color: var(--clear);
+}
+.clear:hover{
+    box-shadow: inset 0 0 0 15px var(--clear-border);
 }
 div.center img{
     max-width: 40%;
@@ -453,6 +493,7 @@ details summary, details p{
 details summary{
     margin-bottom: 1.5rem;
     font-weight: bold;
+    cursor: pointer;
 }
 .footerUl{
     width: calc(100% / 5);
