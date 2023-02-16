@@ -460,17 +460,43 @@ div.center img{
     width: 100%;
     margin-top: 1.5rem;
 }
-details{
-    margin-top: 3rem;
-}
-details summary, details p{
-    font-size: 1.3rem;
-}
-details summary{
-    margin-bottom: 1.5rem;
-    font-weight: bold;
+
+summary {
+    transition: all .2s;
+    display: block;
+    position: relative;
     cursor: pointer;
-}
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  summary::after {
+    margin-left: 1ch;
+    display: inline-block;
+    font-family: "Font Awesome 5 Free"; font-weight: 600; 
+    transition: 0.2s;
+    content: '\f0da'; /* chevron */
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+  }
+
+  details{
+    padding: 1rem;
+    max-width: 100%;
+    position: relative;
+  }
+  
+  details[open] summary::after {
+   content: '\f0dd';
+  }
+
+  summary+p{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+  }
+
 .footerUl{
     width: calc(100% / 5);
 }
@@ -497,6 +523,12 @@ footer hr{
     border-top: 1px solid #eee;
     width: 10%;
     margin: 2rem 0;
+}
+select {
+    background-color: transparent;
+    color: white;
+    border: none;
+    margin-left: .3rem;
 }
 
 
