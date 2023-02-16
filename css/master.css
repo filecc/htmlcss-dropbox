@@ -227,7 +227,6 @@ nav .navbar {
     border-bottom: 3px solid var(--primary);
 }
 #jumbotron {
-    min-height: 70vh;
     background-color: var(--bg-primary);
     padding-top: 3.5rem;
 }
@@ -237,6 +236,7 @@ h1 {
     line-height: 6rem;
     margin-bottom: 3rem;
 }
+
 .textHeaderContainer {
     width: 25%;
     color: var(--grayText);
@@ -247,12 +247,11 @@ h1 {
 .headerImg img {
     width: 100%;
     display: block;
-    position: absolute;
-    top: 0;
 }
 .headerImg {
     width: 70%;
     position: relative;
+    bottom: -40px;
 }
 header i {
     font-size: 3rem;
