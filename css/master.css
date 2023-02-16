@@ -458,7 +458,9 @@ div.center img{
 /*  FAQ */
 .faqHr{
     width: 100%;
-    margin-top: 1.5rem;
+}
+.faqHr:first-of-type{
+    margin-top: 2rem;
 }
 
 summary {
@@ -483,7 +485,7 @@ summary {
   }
 
   details{
-    padding: 1rem;
+    padding: 2.5rem;
     max-width: 100%;
     position: relative;
   }
