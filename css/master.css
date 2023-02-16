@@ -410,6 +410,7 @@ div.customer img{
 }
 :is(.designit, .asu, .uf, .topps, .center, .wbr, .lonley, .hearst, .clear):hover{
     box-shadow: inset 0 0 0 15px  #ffffff74;
+    cursor: pointer;
 }
 .designit{
     background-color: var(--designit);
@@ -485,6 +486,10 @@ footer{
 }
 .footerUl ul li{
     margin: .5rem 0;
+}
+.footerUl li li:hover{
+   cursor: pointer;
+   text-decoration: underline;
 }
 footer hr{
     border: 0;
